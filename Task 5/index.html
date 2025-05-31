@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="icon.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="weatherapp">
+
+            <div class="search">
+                <form>
+                    <input type="text" name="location" class="srch" placeholder="Search Location">
+                    <input type="submit" name="search" value="Search" >
+                </form>
+
+            </div>
+
+            <div class="currWeather">
+                <div class="curr1">
+                    <h1 class="name"></h1><br>
+                    <p class="day"></p>
+                    <p class="datentime"></p><br>
+                    <p class="wind"></p>
+                    <p class="humid"></p>
+                </div>
+                <div class="curr2">
+                    <div class="img"></div>
+                    <div class="condition"></div>
+                </div>
+                <div class="deg">
+                    <h1 class="temp"></h1>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+  
+    <script src="script.js"></script>
+</body>
+
+</html>
